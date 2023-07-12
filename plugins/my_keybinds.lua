@@ -1,7 +1,0 @@
--- return {
---     "nvim-cmp",
---     opts = function(_, opt)
---       cmp = require "cmp",
---       opt.mapping["<C-Space>"] = cmp.mapping(cmp.mapping.complete(), { "i", "c" })
---     end,
--- }
