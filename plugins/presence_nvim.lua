@@ -1,6 +1,7 @@
 -- The setup config table shows all available config options with their default values:
 return {
     "andweeb/presence.nvim",
+    event = "VeryLazy",
     config = function()
       require("presence").setup({
         -- General options
