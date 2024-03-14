@@ -10,7 +10,10 @@ return {
       "rust_analyzer",
       "jsonls",
       "tsserver",
-      "html"
+      "html",
+      "taplo",
+      -- "mdx_analyzer",
+      --"lua_ls"
     },
   },
 }
