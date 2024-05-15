@@ -10,7 +10,9 @@ return {
       -- add more things to the ensure_installed table protecting against community packs modifying it
       opts.ensure_installed = require("astrocore").list_insert_unique(opts.ensure_installed, {
         "lua_ls",
-        -- "rust_analyzer",
+        -- "astro",
+        -- "svelte",
+        "rust_analyzer",
         -- add more arguments for adding more language servers
       })
     end,
@@ -43,7 +45,10 @@ return {
     "WhoIsSethDaniel/mason-tool-installer.nvim",
     optional = true,
     opts = function(_, opts)
-      opts.ensure_installed = require("astrocore").list_insert_unique(opts.ensure_installed, { "codelldb" })
+      opts.ensure_installed = require("astrocore").list_insert_unique(opts.ensure_installed, {
+        "codelldb",
+        -- "astro-language-server",
+      })
     end,
   },
 }

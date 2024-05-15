@@ -9,7 +9,7 @@ return {
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.astro" },
   { import = "astrocommunity.pack.svelte" },
-  { import = "astrocommunity.pack.rust" },
+  -- { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.pack.yaml" },
@@ -24,7 +24,7 @@ return {
   { import = "astrocommunity.scrolling.satellite-nvim" },
   { import = "astrocommunity.scrolling.vim-smoothie" },
   { import = "astrocommunity.media.presence-nvim" },
-  { import = "astrocommunity.workflow.hardtime-nvim" },
+  -- { import = "astrocommunity.workflow.hardtime-nvim" },
   { import = "astrocommunity.colorscheme.nightfox-nvim" },
   -- import/override with your plugins folder
 }
